@@ -1,12 +1,17 @@
 
-## [TigerBeetle](https://tigerbeetle.com/)<br>
+## [TigerBeetle](https://tigerbeetle.com/): The Financial Transactions Database
 
-The Financial Transactions Database
----
+[GitHub Repo](https://github.com/tigerbeetle/tigerbeetle)
 
+--- 
 
-YouTube presentation: [A New Era for Database Design with TigerBeetle](https://www.youtube.com/watch?v=ehYcCTHRyFs), InfoQ, Sept 21, 2023<br>
+YouTube video: [1000x: The Power of an Interface for Performance by Joran Dirk Greef](https://www.youtube.com/watch?v=yKgfk8lTQuE), Sep 1, 2025<br>
 [Joran Greef](https://x.com/jorandirkgreef), Founder and CEO @TigerBeetle
+
+---
+---
+YouTube video: [A New Era for Database Design with TigerBeetle](https://www.youtube.com/watch?v=ehYcCTHRyFs), InfoQ, Sept 21, 2023<br>
+Joran Greef, Founder and CEO @TigerBeetle
 
 - New open-source distributed database
 - Designed to track the "Movement of Value" e.g. financial transactions - payments, trades
@@ -56,3 +61,8 @@ Q. How Does a Database Provide Crash Consistency Through Power Loss?<br>
 A. The Write Ahead Log (WAL) - the crucial building block for ensuring atomic changes<br>
 
 To continue: https://youtu.be/ehYcCTHRyFs?t=1325
+
+---
+---
+
+YouTube video: [TigerBeetle: Magical Memory Tour! (Joran Dirk Greef)](https://www.youtube.com/watch?v=FyGukn77gqA) CMU Database Group, Nov 23, 2022
