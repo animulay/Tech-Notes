@@ -15,6 +15,9 @@ Adding links to various technical books that you can read online for free. Pleas
 
 - [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/)<br>
 
+- [Gist of Go: Concurrency](https://antonz.org/go-concurrency/)<br>
+  [Anton Zhiyanov](https://antonz.org/)
+  
 - [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)<br>
   Al Sweigart
 
