@@ -27,3 +27,6 @@ Adding links to various technical books that you can read online for free. Pleas
 ## Computer Systems
 - [Dive into Systems](https://diveintosystems.org/#_the_textbook)<br>
   by Suzanne J. Matthews, Tia Newhall, Kevin C. Webb
+
+## Database Systems
+- [PostgreSQL 14 Internals: A deep dive into the server mechanics](https://postgrespro.com/community/books/internals)
