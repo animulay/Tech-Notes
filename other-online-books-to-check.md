@@ -30,3 +30,7 @@ Adding links to various technical books that you can read online for free. Pleas
 
 ## Database Systems
 - [PostgreSQL 14 Internals: A deep dive into the server mechanics](https://postgrespro.com/community/books/internals)
+
+## Machine Learning (ML)
+- [Introduction to Algorithms and Machine Learning: from Sorting to Strategic Agents](https://www.justinmath.com/books/#introduction-to-algorithms-and-machine-learning)<br>
+  by [Justin Skycak](https://x.com/justinskycak/)
