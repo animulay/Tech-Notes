@@ -1,35 +1,35 @@
-System V semaphores are one of the oldest synchronization primitives in Unix.<br>
+System V semaphores are one of the oldest synchronization primitives in Unix.
 
-They've been around since the 1980s, and Linux still supports them today.<br>
+They've been around since the 1980s, and Linux still supports them today.
 
-Meet syscall _semget_ (#64, x86_64).<br>
+Meet syscall `semget` ([#64, x86_64](https://github.com/torvalds/linux/blob/master/arch/x86/entry/syscalls/syscall_64.tbl#L76)).
 
-It creates or accesses a semaphore set, but there's a wrinkle.<br>
+It creates or accesses a semaphore set, but there's a wrinkle.
 
-_semget_ creates the semaphore set, but doesn't initialize the values.<br>
+`semget` creates the semaphore set, but doesn't initialize the values.
 
-POSIX says the initial values are "indeterminate."<br>
+POSIX says the initial values are "indeterminate."
 
-Linux actually zeroes them, but you can't rely on this for portable code.<br>
+Linux actually zeroes them, but you can't rely on this for portable code.
 
-Either way, 0 probably isn't what you want (1 = "unlocked" for a mutex).<br>
+Either way, 0 probably isn't what you want (1 = "unlocked" for a mutex).
 
-You need a second call: _semctl_ with SETVAL.<br>
+You need a second call: `semctl` with `SETVAL`.
 
-This two-step process creates a classic race condition.<br>
+This two-step process creates a classic race condition.
 
-Think of it like installing a traffic light:<br>
+Think of it like installing a traffic light:
 
-Step 1: Mount the light on the pole (semget)<br>
-Step 2: Wire it up and turn it on (semctl)<br>
+Step 1: Mount the light on the pole (`semget`)<br>
+Step 2: Wire it up and turn it on (`semctl`)
 
-If a car arrives between steps, it sees a dark signal. Does it stop? Go? Flip a coin?<br>
+If a car arrives between steps, it sees a dark signal. Does it stop? Go? Flip a coin?
 
-Your processes face the same dilemma.<br>
+Your processes face the same dilemma.
 
-Here's the code that causes the race.<br>
+Here's the code that causes the race.
 
-If another process attaches during the gap, it sees the wrong state.<br>
+If another process attaches during the gap, it sees the wrong state.
 
 ```c
 #include <sys/sem.h>
@@ -46,15 +46,15 @@ int main() {
 }
 ```
 
-The kernel gives us a clever workaround.<br>
+The kernel gives us a clever workaround.
 
-The _sem_otime_ field (last operation time) starts at 0 and only updates after the first semop() call.<br>
+The `sem_otime` field (last operation time) starts at 0 and only updates after the first semop() call.
 
-Processes can poll _sem_otime_ via semctl(IPC_STAT).<br>
+Processes can poll `sem_otime` via `semctl(IPC_STAT)`.
 
-If it's still 0, the creator hasn't finished setup yet: so wait and retry.<br>
+If it's still 0, the creator hasn't finished setup yet: so wait and retry.
 
-It's a hack, but it works.<br>
+It's a hack, but it works.
 
 ---
 
