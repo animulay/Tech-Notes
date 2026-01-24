@@ -43,7 +43,7 @@ It calls `clone` - the swiss-army knife that also powers threads and other tasks
 
 The `fork` syscall still exists in the kernel, but glibc treats it as "clone configured for classic process duplication."
 
-Check out this strace!<br>
+Check out this strace!<br><br>
 ![trace](./fork.png)
 
 ---
