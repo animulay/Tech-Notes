@@ -28,6 +28,12 @@ Adding links to various technical books that you can read online for free. Pleas
 - [Dive into Systems](https://diveintosystems.org/#_the_textbook)<br>
   by Suzanne J. Matthews, Tia Newhall, Kevin C. Webb
 
+- [A Primer on Memory Consistency and Cache Coherence](https://pages.cs.wisc.edu/~markhill/papers/primer2020_2nd_edition.pdf)<br>
+  by Vijay Nagarajan, Daniel J. Sorin, Mark D. Hill, David A. Wood
+
+  [Debasish (দেবাশিস্) Ghosh](https://x.com/debasishg/status/2014402225620328867): I was going through the [@Pragmatic_Eng podcast](https://x.com/Pragmatic_Eng) on [How AWS S3 is built](https://youtu.be/5vL6aCvgQXU), where [Mai-Lan](https://www.linkedin.com/in/mailan/) was speaking about data structures like replicated journal and cache coherency protocol for implementing strong consistency in S3.<br>
+  I was looking for some relevant materials and discovered this book, which looks to be directly related to the concepts and techniques ..
+
 ## Database Systems
 - [PostgreSQL 14 Internals: A deep dive into the server mechanics](https://postgrespro.com/community/books/internals)
 
