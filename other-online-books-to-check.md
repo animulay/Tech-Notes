@@ -50,3 +50,7 @@ Adding links to various technical books that you can read online for free. Pleas
 ## Statistics
 - [How to Lie with Statistics](https://www.horace.org/blog/wp-content/uploads/2012/05/How-to-Lie-With-Statistics-1954-Huff.pdf)<br>
   by Darrell Huff
+
+## Forecasting
+- [Forecasting: Principles and Practice](https://otexts.com/fpp3/)<br>
+  by [Rob J Hyndman](https://robjhyndman.com/) and George Athanasopoulos
