@@ -10,19 +10,27 @@ Using this page to save quick notes about various tools as I hear about them.<br
 ## Claude Code
 
 - [Claude Code Docs](https://code.claude.com/docs)
-- [Jeffallan/claude-skills](https://github.com/Jeffallan/claude-skills)
+  
 - [claudecodeskill.directory: AI-Powered Skills for Claude Code](https://claudecodeskill.directory/)
 
-## Agents
+- [Jeffallan/claude-skills](https://github.com/Jeffallan/claude-skills)
+
+
+## Agents / Skills
 
 - [Agent Skills](https://agentskills.io/) [GitHub Repo](https://github.com/agentskills/agentskills)<br>
   • Originally developed by [Anthropic](https://www.anthropic.com/).<br>
   • A simple, open format for giving agents new capabilities and expertise.<br>
   • Consists of folders of simple open format instructions, scripts, and resources that agents can discover and use to do things more accurately and efficiently.
+  
+- [microsoft/skills](https://github.com/microsoft/skills)
+
+- [Skills.sh](https://skills.sh/)
 
 - [Supabase Agent Skills](https://github.com/supabase/agent-skills)<br>
   • Agent Skills to help developers using AI agents with Supabase<br>
     Here's a link to the blog post: [Introducing: Postgres Best Practices](https://supabase.com/blog/postgres-best-practices-for-ai-agents)
+
 
 ## Code Review
 
