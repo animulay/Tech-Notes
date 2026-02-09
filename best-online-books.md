@@ -6,3 +6,5 @@ Here is a list of the technical books that you can access online for free, but a
   [Ilya Grigorik](https://ilya.grigorik.com/)
 - [Competitive Programmer’s Handbook](https://cses.fi/book/book.pdf)<br>
   [Antti Laaksonen](https://www.cs.helsinki.fi/u/ahslaaks/)
+- [Python for Data Analysis](https://wesmckinney.com/book/)<br>
+  [Wes McKinney](https://wesmckinney.com/)
