@@ -42,6 +42,7 @@ Adding links to various technical books that you can read online for free. Pleas
   by [Justin Skycak](https://x.com/justinskycak/)
 - [Machine Learning Engineering Open Book](https://github.com/stas00/ml-engineering)<br>
   by [Stas Bekman](https://x.com/StasBekman)
+- [The Burn Book 🔥](https://burn.dev/books/burn/) - Burn deep learning framework
 
 ## Debugging
 - [The Art of Debugging Open Book](https://github.com/stas00/the-art-of-debugging)<br>
