@@ -24,6 +24,9 @@ Adding links to various technical books that you can read online for free. Pleas
 - [The Rust Programming Language](https://doc.rust-lang.org/book/)<br>
   by Steve Klabnik, Carol Nichols, and Chris Krycho, with contributions from the Rust Community
 
+- [The BEAM Book: Understanding the Erlang Runtime System](https://blog.stenmans.org/theBeamBook/)<br>
+  by Erik Stenman
+
 ## Computer Systems
 - [Dive into Systems](https://diveintosystems.org/#_the_textbook)<br>
   by Suzanne J. Matthews, Tia Newhall, Kevin C. Webb
