@@ -56,5 +56,5 @@ int main() {
 
 ## Reference
 
-- [Uros Popovic: fchown article](https://x.com/popovicu94/status/2021466631994790348)
+- [Uros Popovic: fchmod article](https://x.com/popovicu94/status/2021466631994790348)
 - [chmod(2) — Linux manual page](https://man7.org/linux/man-pages/man2/chmod.2.html)
