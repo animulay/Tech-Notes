@@ -18,6 +18,9 @@ Using this page to save quick notes about various tools as I hear about them.<br
 
 ## Agents / Skills
 
+- [dmux](https://dmux.ai/)<br>
+  • a tool for running multiple coding agents in parallel using tmux and git worktrees
+
 - [Agent Skills](https://agentskills.io/) [GitHub Repo](https://github.com/agentskills/agentskills)<br>
   • Originally developed by [Anthropic](https://www.anthropic.com/).<br>
   • A simple, open format for giving agents new capabilities and expertise.<br>
