@@ -10,9 +10,11 @@ July 08, 2024 • Simon Hørup Eskildsen (Co-founder & CEO)
 | NVMe SSD                 | $0.60 |
 | object storage (S3, GCP) | $0.02 |
 
+**Latency for various components in the modern infra stack**
 
+![Modern Infra stack](./modern-infra-stack.png)
 
-#### Features
+#### turbopuffer Features
 - multi-tenancy
 - sharding
 - object storage first, storage engine<br>
