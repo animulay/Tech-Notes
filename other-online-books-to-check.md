@@ -40,6 +40,10 @@ Adding links to various technical books that you can read online for free. Pleas
 ## Database Systems
 - [PostgreSQL 14 Internals: A deep dive into the server mechanics](https://postgrespro.com/community/books/internals)
 
+## Distributed Systems
+- [Designing Distributed Systems: Patterns and Paradigms for Scalable, Reliable Services](https://info.microsoft.com/rs/157-GQE-382/images/EN-CNTNT-eBook-DesigningDistributedSystems.pdf)<br>
+  by [Brendan Burns](https://azure.microsoft.com/en-us/blog/author/brendan-burns/)
+
 ## Machine Learning (ML)
 - [Introduction to Algorithms and Machine Learning: from Sorting to Strategic Agents](https://www.justinmath.com/books/#introduction-to-algorithms-and-machine-learning)<br>
   by [Justin Skycak](https://x.com/justinskycak/)
