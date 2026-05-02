@@ -58,6 +58,8 @@ Adding links to various technical books that you can read online for free. Pleas
 ## Git
 - [High Performance Git](https://gitperf.com/)<br>
   by Ted Nyman
+- [Beej's Guide to Git](https://beej.us/guide/bggit/)<br>
+  by Brian "Beej" Hall
 
 ## Statistics
 - [How to Lie with Statistics](https://www.horace.org/blog/wp-content/uploads/2012/05/How-to-Lie-With-Statistics-1954-Huff.pdf)<br>
