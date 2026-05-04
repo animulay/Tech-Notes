@@ -8,3 +8,5 @@ Here is a list of the technical books that you can access online for free, but a
   [Antti Laaksonen](https://www.cs.helsinki.fi/u/ahslaaks/)
 - [Python for Data Analysis](https://wesmckinney.com/book/)<br>
   [Wes McKinney](https://wesmckinney.com/)
+- [Deep Learning with Python](https://deeplearningwithpython.io/chapters/)<br>
+  [François Chollet](https://fchollet.com/) and [Matthew Watson](https://mattdwatson.com/)
