@@ -30,6 +30,8 @@ Using this page to save quick notes about various tools as I hear about them.<br
 
 - [Skills.sh](https://skills.sh/)
 
+- [Agent Skills for Redpanda Products](https://github.com/redpanda-data/skills)
+
 - [Supabase Agent Skills](https://github.com/supabase/agent-skills)<br>
   • Agent Skills to help developers using AI agents with Supabase<br>
     Here's a link to the blog post: [Introducing: Postgres Best Practices](https://supabase.com/blog/postgres-best-practices-for-ai-agents)
