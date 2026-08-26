@@ -24,6 +24,9 @@ Adding links to various technical books that you can read online for free. Pleas
 - [The Rust Programming Language](https://doc.rust-lang.org/book/)<br>
   by Steve Klabnik, Carol Nichols, and Chris Krycho, with contributions from the Rust Community
 
+- [Rust Atomics and Locks](https://mara.nl/atomics/)<br>
+  by [Mara Bos](https://mara.nl)
+
 - [The BEAM Book: Understanding the Erlang Runtime System](https://blog.stenmans.org/theBeamBook/)<br>
   by Erik Stenman
 
